@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header div ul li{
+  list-style: none;
+  border-bottom: 5px solid transparent;
+  
+}
+header a{
+ all: unset;
+
+}
+
+header a:hover{
+ all: unset;
+ cursor: pointer;
+ 
+}
+
+
+
+header div ul li:hover{
+ border-bottom: 5px solid white;
+ cursor: pointer;
+}
+
+nav{
+ margin: 20px 0px;
+ cursor: pointer;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh 4vw;
+  background-color: #0d1117;
+  color: white;
+  border-bottom: 1px solid gray;
+
+}
+header nav{
+  width: 20vw;
+  font-size: 3rem;
+  font-weight: 800;
+
+}
+
+.header-div>ul{
+  font-size:1.5rem;
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+/* main
+*/
+
+main{
+  background-color: #0d1117;
+  width: 99vw;
+  padding: 10vh 0px;
+}
+
+main div{
+  background-color: #0d1117;
+  width: 60vw;
+  margin:  auto;
+  color: white;
+  border: 1px solid gainsboro ;
+
+ 
+}
+
+.header_c{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+.header_c img{
+margin: 20px 0px;
+}
+
+main>div>h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 4vh;
+  padding-bottom: 30px;
+}
+
+.input_list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_list input{
+  width: 95%;
+  height: 5vh;
+  font-size: large;
+  padding: 0px 2vw;
+}
+
+.input_list button{
+  width: 100px;
+  height:44px;
+  background-color: #007bd0;
+  color: white;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+a{
+ all: unset;
+}
+
+.Todo-container ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1vh 4vw;
+
+}
+
+.Todo-container>ul>li{
+  padding: 1vw 0px;
+  display: flex;
+  justify-content: space-between;
+  list-style: square;
+  
+}
+
+span{
+  cursor: pointer;
+}
+
+.Start_List{
+ width: 100%;
+ text-align: center;
+ font-size: 2rem;
+ padding: 2rem;
+}
+
+a{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#My{
+ width: 100%;
+ font-size: 3rem;
+}
+
+.list li{
+ list-style: none;
+ border-bottom: 1px solid gray;
+ font-size: 1.5rem;
+}
+.list li span{
+ border: 1px solid transparent;
+ padding: 8px ;
+}
+
+.list li span:hover{
+
+ background-color: #007bd0;
+ color: white;
+ border: 1px solid white;
+
+}
+
